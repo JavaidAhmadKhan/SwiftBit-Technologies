@@ -4,31 +4,40 @@
       "name": "Home",
       "url": "/"
     },
+
     {
-      "name": "About",
-      "url": "/about"
+      "name": "Services",
+      "url": "",
+      "hasChildren": true,
+      "children": [
+        {
+          "name": "Web Development",
+          "url": "/elements"
+        },
+        {
+          "name": "Mobile Application Development",
+          "url": "/terms-policy"
+        },
+        {
+          "name": "Ecommerce Development",
+          "url": "/terms-policy"
+        }
+      ]
+    },
+    {
+      "name": "Portfolio",
+      "url": "/portfolio"
     },
     {
       "name": "Blog",
       "url": "/posts"
     },
     {
-      "name": "Pages",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Elements",
-          "url": "/elements"
-        },
-        {
-          "name": "Terms & Conditions",
-          "url": "/terms-policy"
-        }
-      ]
+      "name": "About",
+      "url": "/about"
     },
     {
-      "name": "Contact",
+      "name": "Lets Work",
       "url": "/contact"
     }
   ],

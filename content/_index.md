@@ -3,8 +3,8 @@ banner:
   title: "Andromeda is the most intuitive </br> way to prototype Designs"
   image: /images/banner-app.png
   link:
-    label: Get Premium Version
-    href: "#"
+    label: Get Started
+    href: "/contact"
 
 ##brands
 brands:
@@ -24,22 +24,22 @@ features:
   title: Elements To </br> Get You Started
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.
   list:
-    - icon: 'lock' # feather icon: https://feathericons.com/
+    - icon: "lock" # feather icon: https://feathericons.com/
       title: Updated Security
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - icon: 'wind'
+    - icon: "wind"
       title: Magnetic Turning
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - icon: 'shield'
+    - icon: "shield"
       title: Secured & up-to-date
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - icon: 'link'
+    - icon: "link"
       title: Instant Link Sharing
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - icon: 'lock'
+    - icon: "lock"
       title: Updated Security
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - icon: 'wind'
+    - icon: "wind"
       title: Magnetic Turning
       content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
 
@@ -63,7 +63,6 @@ speciality:
     subtitle: SECONDARY SPECIALITY
     description: From the simplest of interactions to those that use Excel-gradeing formulas, ProtoPie can handle them all. Make mind-blowing of New interactions everyday without ever having to write any new code.
     image: /images/features-02.png
-
 
 #Testimonial
 testimonial:
@@ -103,5 +102,4 @@ testimonial:
       avatar: /images/user-img/08.jpg
       profession: CEO, Nexuspay
       content: Lorem ipsum dolor amet, conseetur adipiscing elit. Ornare quam porta arcu congue felis volutpat. Vitae lectudbfs pellentesque vitae dolor
-
 ---

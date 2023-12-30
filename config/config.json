@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Andromeda Light Nextjs",
+    "title": "Clever Coder",
     "base_url": "/",
     "favicon": "/images/favicon.ico",
     "logo": "/images/logo.svg",
     "logo_width": "240",
     "logo_height": "34",
-    "logo_text": "Andromeda"
+    "logo_text": "Clever Coder"
   },
 
   "settings": {
@@ -30,22 +30,22 @@
 
   "nav_button": {
     "enable": true,
-    "label": "Enquire Now",
-    "link": "https://javaid-khan.vercel.app/"
+    "label": "Let's work",
+    "link": "/contact"
   },
 
   "metadata": {
     "meta_author": "Javaid Khan",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Andromeda-light Nextjs Blog Template"
+    "meta_description": "Clever Coder"
   },
 
   "call_to_action": {
     "enable": true,
-    "title": "Get Andromeda Now",
+    "title": "Clever Coder",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.",
     "button": {
-      "label": "Download The Theme",
+      "label": "Clever Coder",
       "link": "https://javaid-khan.vercel.app/"
     }
   },

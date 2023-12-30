@@ -1,4 +1,4 @@
-import TwSizeIndicator from "@components/TwSizeIndicator";
+// import TwSizeIndicator from "@components/TwSizeIndicator";
 import config from "@config/config.json";
 import { Head, Html, Main, NextScript } from "next/document";
 
@@ -11,7 +11,7 @@ const Document = () => {
         {/* favicon */}
         <link rel="shortcut icon" href={favicon} />
         {/* theme meta */}
-        <meta name="theme-name" content="andromeda-light-nextjs" />
+        <meta name="theme-name" content="Clever Coder" />
         <meta name="msapplication-TileColor" content="#000000" />
         <meta
           name="theme-color"

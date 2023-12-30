@@ -3,10 +3,10 @@
 }
 
 .btn-primary {
-  @apply bg-primary text-white rounded-[6px] h-12 overflow-hidden relative z-0;
+  @apply relative z-0 h-12 overflow-hidden rounded-[6px] bg-primary font-semibold text-white;
 
   &::before {
-    @apply absolute content-[""] bg-black/10 w-full h-0 left-0 top-0 transition-all duration-300 -z-[1];
+    @apply absolute left-0 top-0 -z-[1] h-0 w-full bg-black/10 transition-all duration-300 content-[""];
   }
 
   &:hover::before {
@@ -15,5 +15,5 @@
 }
 
 .btn-outline-primary {
-  @apply border-primary border bg-transparent hover:bg-primary hover:text-white;
+  @apply border border-primary bg-transparent hover:bg-primary hover:text-white;
 }

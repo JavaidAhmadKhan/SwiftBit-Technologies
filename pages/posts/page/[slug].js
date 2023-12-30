@@ -42,7 +42,7 @@ const BlogPagination = ({
         <Banner title={title} />
         <div className="container">
           <div
-            className="row justify-center pt-20 pb-16 opacity-0"
+            className="row justify-center pb-16 pt-20 opacity-0"
             ref={postsRef}
           >
             {currentPosts.map((post, i) => (
