@@ -6,7 +6,7 @@ draft: false
 ## about us
 about_us:
   subtitle: WHO WE ARE
-  title: Hello, We’re Andromeda Here For Your Help
+  title: Hello, We’re NovaScript Creations Here For Your Help
   content: Your online Health & Fitness companion that offers free assistance on its Facebook Group and provides quality paid guided personal training packages by and through website. We are the first ever, online manifesto in Bangladesh to make place you will select when you think of getting fit
   image: /images/about/01.jpg
 
@@ -54,7 +54,6 @@ clients:
     - /images/brands/05-colored.png
     - /images/brands/06-colored.png
 
-
 ## members
 our_member:
   subtitle: OUR MEMBERS
@@ -83,12 +82,10 @@ our_office:
     - flag: /images/about/flags/au.png
       name: Australia, Perth
       location: Flat 23 80 Anthony Circlet Port Guiseppe, TAS 2691
-    - flag:  /images/about/flags/germany.png
+    - flag: /images/about/flags/germany.png
       name: Berlin, Germany
       location: Jl Raya Dewi Sartika Ged Harapan Masa, Br Germeny
-    - flag:  /images/about/flags/china.png
+    - flag: /images/about/flags/china.png
       name: China, Wohan
       location: 1hao Wen Ti Huo Dong Zhong Xin 1ceng Jian Xing
-
 ---
-

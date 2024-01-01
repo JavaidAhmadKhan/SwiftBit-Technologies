@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Clever Coder",
+    "title": "NovaScript Creations",
     "base_url": "/",
     "favicon": "/images/favicon.ico",
     "logo": "/images/logo.svg",
     "logo_width": "240",
     "logo_height": "34",
-    "logo_text": "Clever Coder"
+    "logo_text": "NovaScript Creations"
   },
 
   "settings": {
@@ -37,15 +37,15 @@
   "metadata": {
     "meta_author": "Javaid Khan",
     "meta_image": "/images/og-image.png",
-    "meta_description": "Clever Coder"
+    "meta_description": "NovaScript Creations"
   },
 
   "call_to_action": {
     "enable": true,
-    "title": "Clever Coder",
+    "title": "NovaScript Creations",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.",
     "button": {
-      "label": "Clever Coder",
+      "label": "NovaScript Creations",
       "link": "https://javaid-khan.vercel.app/"
     }
   },

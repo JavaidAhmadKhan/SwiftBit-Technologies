@@ -19,7 +19,7 @@ function Cta() {
               {button.label}
             </Link>
           </div>
-          <div className="bg-theme animated-bg absolute top-0 left-0 w-full after:hidden">
+          <div className="bg-theme animated-bg absolute left-0 top-0 w-full after:hidden">
             <ImageFallback
               src="/images/wave.svg"
               fill={true}
@@ -32,9 +32,9 @@ function Cta() {
               height={32}
               fill={false}
             />
-            <Circle className="left-[3%] bottom-[13%]" width={85} height={85} />
+            <Circle className="bottom-[13%] left-[3%]" width={85} height={85} />
             <Circle
-              className="left-[15%] bottom-[35%]"
+              className="bottom-[35%] left-[15%]"
               width={47}
               height={47}
               fill={false}
@@ -42,13 +42,13 @@ function Cta() {
 
             <Circle className="right-[12%] top-[12%]" width={20} height={20} />
             <Circle
-              className="right-[2%] bottom-[30%]"
+              className="bottom-[30%] right-[2%]"
               width={73}
               height={73}
               fill={false}
             />
             <Circle
-              className="right-[19%] bottom-[16%]"
+              className="bottom-[16%] right-[19%]"
               width={37}
               height={37}
               fill={false}

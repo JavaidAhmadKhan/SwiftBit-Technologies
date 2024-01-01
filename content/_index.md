@@ -1,7 +1,7 @@
 ---
 banner:
-  title: "Andromeda is the most intuitive </br> way to prototype Designs"
-  image: /images/banner-app.png
+  title: "NovaScript Creations </br> Where Innovation Meets Implementation."
+  image: /images/banner.jpg
   link:
     label: Get Started
     href: "/contact"
@@ -20,28 +20,30 @@ brands:
 
 #features
 features:
-  sub_title: SPECIAL FEATURES
-  title: Elements To </br> Get You Started
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  sub_title: Our Services
+  title: NovaScript Creations </br> Software development engineers
+  description: Create wireframes or prototypes to visualize the user interface and user experience. Develop a comprehensive design that considers functionality, aesthetics, and usability. </br>Remember that effective communication and collaboration among your development team, stakeholders, and end-users are crucial throughout the entire process. Regularly reassess your goals and adjust your plan as needed based on feedback and changing requirements.
+
   list:
     - icon: "lock" # feather icon: https://feathericons.com/
-      title: Updated Security
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Frontend development
+      content: Empowering your digital presence, we offer comprehensive Frontend Development Services. From pixel-perfect designs to seamless user experiences, our team crafts visually stunning and technically robust front-end solutions tailored to elevate your brand in the digital landscape. Let us transform your vision into a captivating reality, ensuring your website or application stands out with innovation and user-centric design. Partner with us for a complete and unparalleled frontend development experience.
     - icon: "wind"
-      title: Magnetic Turning
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Backend development
+      content: We pride ourselves on delivering comprehensive backend development services that lay the foundation for seamless and powerful digital solutions. Our dedicated team of experts meticulously crafts robust backend systems, ensuring your applications and platforms operate with efficiency, scalability, and security. From database design and optimization to server-side scripting and API development, we cover the entire spectrum of backend technologies. Partner with us for a holistic approach to backend development, where precision meets innovation, and your digital success is our priority."
+
     - icon: "shield"
-      title: Secured & up-to-date
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - icon: "link"
-      title: Instant Link Sharing
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - icon: "lock"
-      title: Updated Security
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
-    - icon: "wind"
-      title: Magnetic Turning
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+      title: Moile development
+      content: Empowering your mobile vision, we deliver comprehensive mobile development services tailored to meet your unique needs. From concept to app store, our team of experienced developers ensures a seamless journey, crafting innovative and user-centric mobile solutions. Whether it's iOS, Android, or cross-platform development, we're committed to transforming your ideas into high-quality, feature-rich mobile applications. Partner with us for a holistic approach to mobile development, where creativity meets functionality, resulting in applications that stand out in the dynamic digital landscape.
+    # - icon: "link"
+    #   title: Instant Link Sharing
+    #   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+    # - icon: "lock"
+    #   title: Updated Security
+    #   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
+    # - icon: "wind"
+    #   title: Magnetic Turning
+    #   content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque enim id diam ornare volutpat in sagitis, aliquet. Arcu cursus
 
 #intro
 intro:
