@@ -1,6 +1,6 @@
 ---
 banner:
-  title: "NovaScript Creations </br> Where Innovation Meets Implementation."
+  title: "SwiftBit Technologies </br> Where Innovation Meets Implementation."
   image: /images/banner.jpg
   link:
     label: Get Started
@@ -21,7 +21,7 @@ brands:
 #features
 features:
   sub_title: Our Services
-  title: NovaScript Creations </br> Software development engineers
+  title: SwiftBit Technologies </br> Software development engineers
   description: Create wireframes or prototypes to visualize the user interface and user experience. Develop a comprehensive design that considers functionality, aesthetics, and usability. </br>Remember that effective communication and collaboration among your development team, stakeholders, and end-users are crucial throughout the entire process. Regularly reassess your goals and adjust your plan as needed based on feedback and changing requirements.
 
   list:

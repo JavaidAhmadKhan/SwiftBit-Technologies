@@ -161,7 +161,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             <div className="row overflow-hidden rounded-2xl">
               <div className="col-12">
                 <div className="row relative justify-center pb-10">
-                  <div className="banner-content col-10 pb-10 pt-20 text-center">
+                  <div className="banner-content col-10 pb-24 pt-2 text-center">
                     {markdownify(
                       banner.title,
                       "h1",
@@ -275,7 +275,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
       </section>
 
       {/* Short Into */}
-      <section className="section pt-0">
+      {/* <section className="section pt-0">
         <div className="container-xl">
           <div className="relative px-4 py-[70px]">
             <div className="text-center">
@@ -343,7 +343,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Special Features */}
       <section className="section">

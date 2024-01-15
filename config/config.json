@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "NovaScript Creations",
+    "title": "SwiftBit Technologies",
     "base_url": "/",
     "favicon": "/images/favicon.ico",
     "logo": "/images/logo.svg",
     "logo_width": "240",
     "logo_height": "34",
-    "logo_text": "NovaScript Creations"
+    "logo_text": "SwiftBit Technologies"
   },
 
   "settings": {
@@ -37,15 +37,15 @@
   "metadata": {
     "meta_author": "Javaid Khan",
     "meta_image": "/images/og-image.png",
-    "meta_description": "NovaScript Creations"
+    "meta_description": "SwiftBit Technologies"
   },
 
   "call_to_action": {
     "enable": true,
-    "title": "NovaScript Creations",
+    "title": "SwiftBit Technologies",
     "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.",
     "button": {
-      "label": "NovaScript Creations",
+      "label": "SwiftBit Technologies",
       "link": "https://javaid-khan.vercel.app/"
     }
   },
