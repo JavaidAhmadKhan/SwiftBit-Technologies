@@ -12,15 +12,15 @@
       "children": [
         {
           "name": "Web Development",
-          "url": "/elements"
+          "url": "/about"
         },
         {
           "name": "Mobile Application Development",
-          "url": "/posts"
+          "url": "/contact"
         },
         {
           "name": "Ecommerce Development",
-          "url": "/terms-policy"
+          "url": "/blog"
         }
       ]
     },
@@ -48,7 +48,7 @@
     },
     {
       "name": "Blog",
-      "url": "/blog"
+      "url": "/posts"
     },
     {
       "name": "Terms & Conditions",

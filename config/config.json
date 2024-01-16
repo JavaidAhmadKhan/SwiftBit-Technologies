@@ -3,9 +3,9 @@
     "title": "SwiftBit Technologies",
     "base_url": "/",
     "favicon": "/images/favicon.ico",
-    "logo": "/images/logo.svg",
-    "logo_width": "240",
-    "logo_height": "34",
+    "logo": "/images/logo.png",
+    "logo_width": "200",
+    "logo_height": "60",
     "logo_text": "SwiftBit Technologies"
   },
 
@@ -18,14 +18,14 @@
   "params": {
     "tag_manager_id": "",
     "contact_form_action": "#",
-    "footer_content": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "footer_content": "At SwiftBit Technologies, we are not just developers, we are architects of innovation, builders of digital dreams. We bring your ideas to life, transforming concepts into scalable and efficient solutions.",
     "copyright": "Designed & Developed By [Javaid Khan](https://javaid-khan.vercel.app/)"
   },
 
   "contact_info": {
-    "phone": "+6006897179",
+    "phone": "+916006897179",
     "email": "relaxjavaid@gmail.com",
-    "location": "512 Kormangla Bangalore, 56006"
+    "location": "Zuspora Tangmarg, Baramulla, Jammu & Kashmir, 193402"
   },
 
   "nav_button": {
@@ -43,10 +43,10 @@
   "call_to_action": {
     "enable": true,
     "title": "SwiftBit Technologies",
-    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas </br> Werat viverra id et aliquet. vulputate egestas sollicitudin.",
+    "content": "Make you budget",
     "button": {
-      "label": "SwiftBit Technologies",
-      "link": "https://javaid-khan.vercel.app/"
+      "label": "Let's work together",
+      "link": "/contact"
     }
   },
 

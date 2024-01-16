@@ -1,3 +1,4 @@
+import About from "@layouts/About";
 import Base from "@layouts/Baseof";
 import Circle from "@layouts/components/Circle";
 import Cta from "@layouts/components/Cta";
@@ -161,11 +162,11 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             <div className="row overflow-hidden rounded-2xl">
               <div className="col-12">
                 <div className="row relative justify-center pb-10">
-                  <div className="banner-content col-10 pb-24 pt-2 text-center">
+                  <div className="banner-content col-10  pb-12 pt-12 text-center lg:pb-36 lg:pt-36">
                     {markdownify(
                       banner.title,
                       "h1",
-                      "mb-8 banner-title opacity-0"
+                      "mb-8 banner-title opacity-0 "
                     )}
                     <div className="banner-btn opacity-0">
                       <Link className="btn btn-primary" href={banner.link.href}>
@@ -229,8 +230,12 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
         <div className="container text-center">
           <div className="animate">
             <p className="uppercase">{features.sub_title}</p>
-            {markdownify(features.title, "h2", "mt-4 section-title")}
-            {markdownify(features.description, "p", "mt-10")}
+            {markdownify(features.title, "h2", "mt-4 section-title ")}
+            {markdownify(
+              features.description,
+              "p",
+              "mt-10 text-lg font-medium px-0 md:px-8 lg:px-12"
+            )}
           </div>
           <div className="animate from-right relative mt-10">
             <Swiper
@@ -257,12 +262,17 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             >
               {features.list.map((item, index) => (
                 <SwiperSlide key={"feature-" + index}>
-                  <div className="feature-card m-4 rounded-md border border-transparent px-7 py-16 shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all duration-300  hover:border-[#ffece4] hover:shadow-none">
-                    <div className="feature-card-icon inline-flex h-20 w-20 items-center justify-center rounded-md border border-[#fff7f3] text-primary">
+                  <div className="feature-card m-4 rounded-md border border-transparent px-7 py-16 text-left shadow-[0px_4px_25px_rgba(0,0,0,.05)] transition-all  duration-300 hover:border-[#ffece4] hover:shadow-none">
+                    <div className="feature-card-icon inline-flex h-20 w-20 items-center justify-center rounded-md border border-[#fff7f3] text-left text-primary">
                       <FeatherIcon icon={item.icon} />
                     </div>
                     <h3 className="h4 mb-5 mt-6">{item.title}</h3>
-                    <p>{item.content}</p>
+                    <p className="line-clamp-6 text-lg">{item.content}</p>
+                    <div className=" pt-24">
+                      <button className="rounded-md bg-primary px-6 py-3 text-lg font-medium text-white">
+                        Know More
+                      </button>
+                    </div>
                   </div>
                 </SwiperSlide>
               ))}
@@ -392,7 +402,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
       </section>
 
       {/* Testimonial */}
-      <section className="section pt-0">
+      {/* <section className="section pt-0">
         <div className="container">
           <div className="animate text-center">
             <p>{testimonial.subtitle}</p>
@@ -475,7 +485,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Cta */}
       <Cta />
