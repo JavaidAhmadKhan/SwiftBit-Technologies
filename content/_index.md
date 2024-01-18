@@ -65,6 +65,11 @@ speciality:
     subtitle: SECONDARY SPECIALITY
     description: Elevate your mobile app strategy with React Native and Flutter development services from our expert team. Whether you're a startup looking to make a splash or an established business aiming to stay ahead, our solutions are designed to bring your vision to life and provide users with an unparalleled mobile experience. Contact us today and let's embark on a journey of innovation and success together. </br> Embrace the power of cross-platform development with React Native and Flutter. By leveraging a single codebase, we ensure that your app functions seamlessly across both iOS and Android platforms, reducing development time and costs. </br> Stunning and intuitive user interfaces are non-negotiable. React Native and Flutter empower us to create visually appealing and user-friendly designs that captivate your audience and enhance user engagement.
     image: /images/features-01.jpg
+    # tertiary:
+    # title: SEO
+    # subtitle:  TERTIARY SPECIALITY
+    # description: Bes seo sss
+    # image: /images/features-03.jpg
 
 #Testimonial
 testimonial:

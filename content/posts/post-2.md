@@ -1,26 +1,29 @@
 ---
-title: Why you should launch your product in phases not after done
-image: /images/blog/02.jpg
+title: Choosing best tech stack while building scalale and performant mobile applications
+image: /images/blog/02.png
 author:
-  name: Derick Barker
-  avatar: /images/author/derick.jpg
-date: 2022-04-04T05:00:00Z
+  name: Javaid Khan
+  avatar: /images/author/javaid.jpeg
+date: 2023-12-04T05:00:00Z
 draft: false
 ---
 
+Choosing the best tech stack for building mobile applications with ReactJS depends on various factors such as project requirements, team expertise, and specific use cases. However, as of my last knowledge update in January 2022, some popular and widely used tech stacks for ReactJS mobile app development include:
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget
+1. **React Native:** React Native is a framework developed by Facebook that allows you to build mobile applications using React and JavaScript. It provides a way to write code once and run it on both iOS and Android platforms, making it a popular choice for cross-platform mobile development.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent
+2. **Expo:** Expo is a set of tools and services built around React Native that simplifies the development process. It includes a set of pre-built components and libraries, making it easier to get started with React Native development. Expo is often chosen for projects where rapid development and prototyping are crucial.
 
-Pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet Faucibus consectetur tempus adipiscing vitae. Nec blandit tincidunt nibh nisi, quam volutpat. In lacus laoreet diam risus. Mauris, risus faucibus sagittis sagittis tincidunt id justo. Diam massa pretium consequat mauris viverra. Sagittis eu libero
+3. **TypeScript:** TypeScript is a statically typed superset of JavaScript that adds optional static typing to the language. Many React developers prefer using TypeScript for better code quality, editor support, and improved collaboration between team members.
 
-<Blockquote name="!Alexender Smith">
-  Facing a challenge in life is kind of a turn-on for an easy rider. When life gives you lemons, use them in your designs
-</Blockquote>
+4. **Redux or MobX for State Management:** React itself doesn't prescribe a specific state management solution, but for larger applications, you might want to consider using a state management library like Redux or MobX to handle complex state logic.
 
-Consectetur adipiscing elit. Nec et ipsum ullamcorper venenatis fringilla. Pretium, purus eu nec vulputate vel habitant egestas. Congue ornare at ipsum, viverra. Vitae magna faucibus eros, lectus sociis. Etiam nunc amet id dignissim. Feugiat id tempor vel sit in ornare turpis posuere. Eu quisque integer non rhoncus elementum vel. Quis nec viverra lectus augue nec praesent volutpat tortor. Ipsum eget sed tempus luctus nisl. Ut etiam molestie mattis at faucibus mi at pellentesque. Pellentesque morbi nunc, curabitur arcu euismod suscipit. Duis mi sapien, donec non dictum
+5. **GraphQL:** GraphQL is a query language for APIs that allows you to request only the data you need. Integrating GraphQL into your React Native application can lead to more efficient data fetching and improved performance.
 
-Laoreet mauris odio ut nec. Nisl, sed adipiscing dignissim arcu placerat ornare pharetra nec in. Ultrices in nisl potenti vitae tempus. Auctor consectetur luctus eu in amet sagittis. Dis urna, vel hendrerit convallis cursus id.
+6. **Axios or Fetch for API calls:** To interact with APIs, you can use libraries like Axios or the built-in `fetch` API.
 
-Senectus feugiat faucibus commodo egestas leo vitae in morbi. Enim arcu dignissim mauris, eu, eget pharetra odio amet pellentesque. Egestas nisi adipiscing sed in lectus. Vitae ultrices malesuada aliquet dignissim. Faucibus non tristique eu.
+7. **Jest and React Testing Library for Testing:** Writing tests is crucial for maintaining the quality of your application. Jest is a popular testing framework, and React Testing Library is often used for testing React components.
+
+8. **React Navigation:** For navigation in React Native applications, React Navigation is a widely used library that provides a simple and customizable way to navigate between screens.
+
+Remember that the technology landscape evolves, and new tools and libraries may have emerged since my last update. Always check for the latest recommendations and community preferences when starting a new project. Additionally, consider the specific requirements and constraints of your project to make informed decisions about your tech stack.

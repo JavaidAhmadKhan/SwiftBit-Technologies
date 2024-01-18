@@ -12,15 +12,15 @@
       "children": [
         {
           "name": "Web Development",
-          "url": "/about"
+          "url": "/web-development"
         },
         {
           "name": "Mobile Application Development",
-          "url": "/contact"
+          "url": "/app-development"
         },
         {
           "name": "Ecommerce Development",
-          "url": "/blog"
+          "url": "/ecommerce-development"
         }
       ]
     },
