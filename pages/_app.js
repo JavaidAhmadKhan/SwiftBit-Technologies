@@ -4,6 +4,7 @@ import Head from "next/head";
 import { useEffect, useState } from "react";
 import TagManager from "react-gtm-module";
 import "styles/style.scss";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const App = ({ Component, pageProps }) => {
   // import google font css
@@ -12,8 +13,7 @@ const App = ({ Component, pageProps }) => {
   const [fontcss, setFontcss] = useState();
   useEffect(() => {
     fetch(
-      `https://fonts.googleapis.com/css2?family=${pf}${
-        sf ? "&family=" + sf : ""
+      `https://fonts.googleapis.com/css2?family=${pf}${sf ? "&family=" + sf : ""
       }&display=swap`
     ).then((res) => res.text().then((css) => setFontcss(css)));
   }, [pf, sf]);
@@ -50,6 +50,7 @@ const App = ({ Component, pageProps }) => {
           name="viewport"
           content="width=device-width, initial-scale=1, maximum-scale=5"
         />
+        <GoogleAnalytics gaId="GTM-KHP39HF" />
       </Head>
       <Component {...pageProps} />
     </>

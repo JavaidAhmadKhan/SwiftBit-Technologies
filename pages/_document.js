@@ -1,6 +1,7 @@
 // import TwSizeIndicator from "@components/TwSizeIndicator";
 import config from "@config/config.json";
 import { Head, Html, Main, NextScript } from "next/document";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const Document = () => {
   // destructuring items from config object
@@ -26,6 +27,7 @@ const Document = () => {
       </Head>
       <body>
         <Main />
+        <GoogleAnalytics gaId="GTM-KHP39HF" />
         {/* <TwSizeIndicator /> */}
         <NextScript />
       </body>
