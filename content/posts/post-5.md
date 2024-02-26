@@ -1,6 +1,6 @@
 ---
 title: How to pass property from a parent component props to a child component ?
-image: /images/blog/props_pass.png
+image: /images/blog/props_pass.jpg
 author:
   name: Javaid Khan
   avatar: /images/author/javaid.jpeg
@@ -8,211 +8,72 @@ date: 2022-04-04T05:00:00Z
 draft: false
 ---
 
-In this article, we will learn how to pass the property from the parent component to the child component in React js. While embedding the child component inside the parent component in the React, developers need to send properties or data to the child component from the parent component.
+In React.js, props (short for "properties") are a mechanism for passing data from a parent component to a child component. Props allow you to pass information from a higher-level component to a lower-level one, enabling communication between components.
 
-React.js allows us to use props (short form of property) to pass data from parent component to child component. We have to set props value inside the child component, while we embed it to the parent component.
+Here's a basic example of how props are used in React:
 
-Prerequisites: The pre-requisites for this tutorial are:
+1. **Passing Props from Parent to Child:**
+   ```jsx
+   // ParentComponent.jsx
 
-React Knowledge
+   import React from 'react';
+   import ChildComponent from './ChildComponent';
 
-Class Components
+   const ParentComponent = () => {
+     // Data to be passed to the child component
+     const data = "Hello from parent!";
 
-Functional Components
+     return (
+       <div>
+         {/* Passing data to the child component using props */}
+         <ChildComponent message={data} />
+       </div>
+     );
+   }
 
-Creating Application: The below command will help you to start a new react app.
+   // ChildComponent.jsx
 
-npx create-react-app testapp
+   import React from 'react';
 
-Next, you have to move to the ‘testapp‘ project folder from the terminal.
+   const ChildComponent = (props) => {
+     return (
+       <div>
+         {/* Accessing the data passed from the parent component */}
+         <p>{props.message}</p>
+       </div>
+     );
+   }
 
-cd testapp
+   export default ChildComponent;
+   ```
 
-Create a new components folder inside the src folder and create one component named child.js inside the component folder.
+   In this example, the `ParentComponent` passes a piece of data (`"Hello from parent!"`) to the `ChildComponent` using the prop named `message`.
 
-Project directory: It should look like this.
+2. **Accessing Props in a Functional Component:**
+   In a functional component (like `ChildComponent` in the example above), you can access the props as function parameters. The `props` parameter contains all the properties passed to the component.
 
-Passing properties from parent to child component using class components
+3. **Accessing Props in a Class Component:**
+   In a class component, you can access props using `this.props`.
 
-When users pass the data from parent to child using the class components, they can access inside the child component using ‘this.props.property_name‘.
+   ```jsx
+   // ClassComponent.jsx
 
-Steps:
+   import React, { Component } from 'react';
 
-Embed the child component to the parent component.
+   class ClassComponent extends Component {
+     render() {
+       return (
+         <div>
+           {/* Accessing props in a class component */}
+           <p>{this.props.message}</p>
+         </div>
+       );
+     }
+   }
 
-Pass the data variable (props) with an assigned value to the child component as an argument while embedding it to the parent component.
+   export default ClassComponent;
+   ```
 
-If a user wants to pass multiple data variables (props), all variable names should be unique.
+   When using the `ClassComponent` in the parent component, you would pass the props similarly as with the functional component.
 
-In the child component, access the data variable value using ‘this.props.variable_name’.
-
-Example:
-
-Filename: App.js In this file, we will embed the child component to the parent component. Also, we pass multiple props to the child component.
-
-Javascript
-
-import React, { Component } from 'react';
-
-import Child from './components/child.js';
-
-// Child component embedded to parent component
-
-// with props value
-
-class App extends Component {
-
-render() {
-
-return (
-
-<div>
-
-<h1>This is a parent component</h1>
-
-<ul>
-
-<li>
-
-<Child gfgcolor="green" usercolor="blue"/>
-
-</li>
-
-</ul>
-
-</div>
-
-);
-
-}
-
-}
-
-export default App;
-
-Filename: Child.js In the child.js file, we will access props from the parent component and render them inside the child component.
-
-Javascript
-
-import React, { Component } from 'react';
-
-// Accessing the props value using this.props
-
-class Child extends Component {
-
-render() {
-
-return (
-
-<div>
-
-<h1>This is a child component</h1>
-
-<h1 style={{color: this.props.gfgcolor}}>
-
-GeeksForGeeks
-
-</h1>
-
-<h1 style={{color: this.props.usercolor}}>
-
-hello user
-
-</h1>
-
-</div>
-
-);
-
-}
-
-}
-
-export default Child;
-
-Step to run the application: Open the terminal and type the following command.
-
-npm start
-
-Output:
-
-In the above output image, the user can see the color of HTML elements is changed according to the props value.
-
-Passing properties from parent to child component using functional components
-
-To access properties from parent to child using a functional component, users don’t need to use ‘this.props‘ like class components. Users can access props value by writing variable names only.
-
-Steps:
-
-Embed the child component to the parent component.
-
-Pass the props to the child component as an argument while embedding it to the parent component.
-
-In the child component, access the data variable value by writing the name or variable only.
-
-Example:
-
-Filename: App.js In App.js, we will add a functional component and call a child component with props and their value.
-
-Javascript
-
-import React, { Component } from 'react';
-
-import Child from './components/child.js';
-
-// parent component
-
-// embedding child component inside it
-
-function App (){
-
-return(
-
-<div>
-
-<h1>This is a parent component</h1>
-
-<ul><li>
-
-<Child gfgcolor="green" usercolor="blue"/></li>
-
-</ul>
-
-</div>
-
-)
-
-}
-
-Filename: child.js In child.js, we will add props as a parameter of a functional component and use them inside the component.
-
-Javascript
-
-import React, { Component } from 'react';
-
-// Passing props as a parameter
-
-// inside the child component
-
-function Child ({gfgcolor,usercolor}){
-
-return(
-
-<div>
-
-<h1>This is a child component</h1>
-
-<h1 style={{color: gfgcolor}}>GeeksForGeeks</h1>
-
-<h1 style={{color: usercolor}}>hello user</h1>
-
-</div>
-
-)
-
-}
-
-Step to run the application: Open the terminal and type the following command.
-
-npm start
-
+Remember that props are immutable (cannot be changed) within the component receiving them. If a component needs to modify the data, it should do so through state management or by invoking functions passed as props.
