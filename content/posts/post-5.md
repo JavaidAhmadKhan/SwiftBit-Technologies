@@ -33,7 +33,7 @@ Here's a basic example of how props are used in React:
 
    // ChildComponent.jsx
 
-   import React from 'react';
+
 
    const ChildComponent = (props) => {
      return (
@@ -58,7 +58,7 @@ Here's a basic example of how props are used in React:
    ```jsx
    // ClassComponent.jsx
 
-   import React, { Component } from 'react';
+   
 
    class ClassComponent extends Component {
      render() {
