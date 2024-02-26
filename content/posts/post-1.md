@@ -1,6 +1,6 @@
 ---
 title: Choosing best tech stack while building scalale and performant web applications.
-image: /images/blog/01.png
+image: /images/blog/reactjs.png
 author:
   name: Javaid Khan
   avatar: /images/author/javaid.jpeg

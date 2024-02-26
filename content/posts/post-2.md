@@ -1,6 +1,6 @@
 ---
 title: Choosing best tech stack while building scalale and performant mobile applications
-image: /images/blog/02.png
+image: /images/blog/react_native.png
 author:
   name: Javaid Khan
   avatar: /images/author/javaid.jpeg
