@@ -90,7 +90,7 @@ const About = ({ data }) => {
               <div key={"work-" + index} className="mt-10 md:col-6 lg:col-5">
                 <div className="animate text-center md:px-6 xl:px-12">
                   {markdownify(work.title, "h3", "h4")}
-                  {markdownify(work.content, "p", "mt-2")}
+                  {markdownify(work.content, "p", "mt-2 line-clamp-6")}
                 </div>
               </div>
             ))}

@@ -7,29 +7,37 @@ draft: false
 about_us:
   subtitle: WHO WE ARE
   title: Hello, We’re SwiftBit Technologies Here For Your Help
-  content: Your online Health & Fitness companion that offers free assistance on its Facebook Group and provides quality paid guided personal training packages by and through website. We are the first ever, online manifesto in Bangladesh to make place you will select when you think of getting fit
-  image: /images/about/01.jpg
+  content: YAt SwiftBit Technologies, we are not just developers, we are architects of innovation, builders of digital dreams. We bring your ideas to life, transforming concepts into scalable and efficient solutions.
+  image: /images/about/aboutus.png
 
 ## our works
 works:
   subtitle: OUR WORKS
   title: What We Do
   list:
-    - title: Building A New Class
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
-    - title: Design For Anyone
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
-    - title: Creative Flair Design
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
-    - title: Building Products
-      content: Decade of engineering under his belt, Jeremie is responsible for technical infrastructure and feature development. In Flow, wherever things just work is understanding developing complex systems
+    - title: UI UX Design
+      content: DOur design process begins with a deep understanding of your brand and goals. We create visually stunning websites that resonate with your audience and leave a lasting impression.In a world where users access websites on various devices, we ensure that your site looks and functions flawlessly across desktops, tablets, and smartphones. Our responsive development guarantees an optimal user experience regardless of the screen size.
+    - title: Mobile Application Development
+      content: Elevate your mobile app strategy with React Native and Flutter development services from our expert team. Whether you're a startup looking to make a splash or an established business aiming to stay ahead, our solutions are designed to bring your vision to life and provide users with an unparalleled mobile experience. Contact us today and let's embark on a journey of innovation and success together.Embrace the power of cross-platform development with React Native and Flutter. By leveraging a single codebase, we ensure that your app functions seamlessly across both iOS and Android platforms, reducing development time and costs.Stunning and intuitive user interfaces are non-negotiable. React Native and Flutter empower us to create visually appealing and user-friendly designs that captivate your audience and enhance user engagement.
+    - title: Website Development
+      content: Empower Your Online Presence with Professional Website Development Services. In today's digital age, having a compelling online presence is paramount for businesses and individuals alike. Your website serves as the digital storefront, often making the first impression on potential customers. At SwiftBit Technologies, we understand the significance of a well-designed and functional website in driving growth and success.
+    - title: Software Development
+      content: We are your trusted partner in transforming ideas into robust, scalable, and cutting-edge software solutions tailored to meet your unique business needs.With a team of highly skilled developers, designers, and project managers, we offer a comprehensive suite of software development services to propel your business forward in today's dynamic digital landscape.we are committed to delivering innovative, high-quality software solutions that drive tangible business results. Partner with us today and unlock the full potential of technology to fuel your success in the digital age.Contact us to learn more about our software development services and how we can help you achieve your business goals. Let's embark on a journey of digital transformation together!
+    - title: Ecommerce Website Development
+      content: In today's digital age, having a strong online presence is essential for any business looking to thrive. At SwiftBit Technologies, we understand the significance of a well-designed and functional ecommerce website in driving sales and expanding your customer base. That's why we specialize in providing top-notch ecommerce website development services tailored to meet your unique business needs. Ready to take your ecommerce business to the next level? Contact us today to learn more about our ecommerce website development services and how we can help you achieve your goals. With our expertise and dedication to excellence, we'll help you create a compelling online shopping experience that drives sales and fosters customer loyalty.
+    - title: IT Consulting / Software Consulting
+      content: In today's rapidly evolving digital landscape, navigating the complexities of technology can be daunting for businesses of all sizes. That's where IT consulting comes in. SwiftBit Technologies we specialize in providing tailored IT consulting and software consulting services to help businesses leverage technology to achieve their goals efficiently and effectively. Our team of seasoned IT professionals brings a wealth of experience and expertise across a wide range of industries. Whether you're a startup looking to establish a robust IT infrastructure, a small business aiming to optimize your existing systems, or a large enterprise in need of strategic technology guidance, we have the knowledge and skills to meet your needs. Take the first step towards digital transformation and partner with us for expert IT consulting services. Contact us today to learn more about how we can help your business thrive in the digital age.
+    - title: Search Engine Optimization
+      content: Unlock Your Online Potential with Our Expert Search Engine Optimization Services In the dynamic landscape of digital marketing, visibility is paramount. In a sea of countless websites, standing out requires more than just a compelling design or engaging content. It demands strategic Search Engine Optimization (SEO) tactics tailored to elevate your online presence and drive organic traffic to your platform. SwiftBit Technologies we specialize in harnessing the power of SEO to propel your business to new heights. Our team of seasoned professionals possesses a deep understanding of search engine algorithms, consumer behavior, and industry trends, enabling us to craft customized strategies that deliver tangible results.
+    - title: Digital Marketting
+      content: Unlock the Power of Digital Marketing with Our Expert Solutions In today's fast-paced digital landscape, establishing a strong online presence is vital for businesses to thrive. SwiftBit Technologies, we specialize in providing cutting-edge digital marketing services tailored to elevate your brand and drive tangible results. Don't get left behind in the digital age. Partner with SwiftBit Technologies today and take your online presence to new heights. Contact us to schedule a consultation and discover how our digital marketing services can help you achieve your business objectives.
 
 ## our mission
 mission:
   subtitle: OUR MISSION
   title: Main Vision And Mission Of Our Company
-  content: We were freelance designers and developers, constantly finding ourselve deep vague feedback. leaving a notes from the sticky note piece .
-  image: /images/about/02.jpg
+  content: We are the leading provider of cutting-edge software solutions that empower businesses and individuals to thrive in the digital age. We evelop innovative software products and services that anticipate and meet the evolving needs of our customers.
+  image: /images/about/vission_mission.png
 
 ## short video
 video:
@@ -37,7 +45,7 @@ video:
   title: You Take Care Of The Payments, We Take Care Of The Rest.
   description: Protect your design vision and leave nothing up to interpretation with interaction recipes. Quickly share and access all your team members interactions by using libraries, ensuring consistcy throughout the.
   video_id: dyZcRRWiuuw
-  thumbnail: /images/about/video-popup-2.jpg
+  thumbnail: /images/about/payment.png
 
 ## clients
 clients:

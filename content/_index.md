@@ -1,7 +1,7 @@
 ---
 banner:
   title: "SwiftBit Technologies </br> Where Innovation Meets Implementation."
-  image: /images/banner.jpg
+  image: /images/banner4.jpg
   link:
     label: Get Started
     href: "/contact"
