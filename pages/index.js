@@ -237,7 +237,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               "mt-10 text-lg font-medium px-0 md:px-8 lg:px-12"
             )}
           </div>
-          <div className="animate from-right relative mt-10">
+          {/* <div className="animate from-right relative mt-10">
             <Swiper
               slidesPerView={1}
               pagination={{
@@ -280,7 +280,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             <div className="relative mt-9 flex justify-center">
               <div className="pagination " ref={paginationRef}></div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -359,66 +359,165 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
       <section className="section">
         <div className="container">
           <div className="row items-center justify-center">
-            <div className="animate lg:col-6 lg:order-2">
+            <div className="animate lg:col-6 lg:order-2 mt-24">
               <ImageFallback
                 className="mx-auto"
-                src={speciality.primary.image}
+                src={speciality.uiux.image}
                 width={575}
                 height={511}
                 alt="primary speciality"
               />
             </div>
             <div className="animate lg:col-5 lg:order-1">
-              <p>{speciality.primary.subtitle}</p>
+              {/* <p>{speciality.primary.subtitle}</p> */}
               {markdownify(
-                speciality.primary.title,
+                speciality.uiux.title,
                 "h2",
                 "mt-4 section-title bar-left"
               )}
-              {markdownify(speciality.primary.description, "p", "mt-10")}
+              {markdownify(speciality.uiux.description, "p", "mt-10")}
             </div>
           </div>
           <div className="row items-center">
-            <div className="animate lg:col-6">
+            <div className="animate lg:col-6 mt-24">
               <ImageFallback
                 className="mx-auto"
-                src={speciality.secondary.image}
+                src={speciality.mobileappdevelopment.image}
                 width={575}
                 height={511}
                 alt="secondary speciality"
               />
             </div>
             <div className="animate lg:col-5">
-              <p>{speciality.secondary.subtitle}</p>
+              {/* <p>{speciality.secondary.subtitle}</p> */}
               {markdownify(
-                speciality.secondary.title,
+                speciality.mobileappdevelopment.title,
                 "h2",
                 "mt-4 section-title bar-left"
               )}
-              {markdownify(speciality.secondary.description, "p", "mt-10")}
+              {markdownify(speciality.mobileappdevelopment.description, "p", "mt-10")}
             </div>
           </div>
-          {/* terninary */}
-          {/* <div className="row items-center">
-            <div className="animate lg:col-6">
+          <div className="row items-center justify-center">
+            <div className="animate lg:col-6 lg:order-2 mt-24">
               <ImageFallback
                 className="mx-auto"
-                src={speciality.tertiary.image}
+                src={speciality.websitedevelopment.image}
                 width={575}
                 height={511}
-                alt="tertiary speciality"
+                alt="primary speciality"
+              />
+            </div>
+            <div className="animate lg:col-5 lg:order-1">
+              {/* <p>{speciality.primary.subtitle}</p> */}
+              {markdownify(
+                speciality.websitedevelopment.title,
+                "h2",
+                "mt-4 section-title bar-left"
+              )}
+              {markdownify(speciality.websitedevelopment.description, "p", "mt-10")}
+            </div>
+          </div>
+          <div className="row items-center">
+            <div className="animate lg:col-6 mt-24">
+              <ImageFallback
+                className="mx-auto"
+                src={speciality.softwaredevelopment.image}
+                width={575}
+                height={511}
+                alt="secondary speciality"
               />
             </div>
             <div className="animate lg:col-5">
-              <p>{speciality.tertiary.subtitle}</p>
+
               {markdownify(
-                speciality.tertiary.title,
+                speciality.softwaredevelopment.title,
                 "h2",
                 "mt-4 section-title bar-left"
               )}
-              {markdownify(speciality.tertiary.description, "p", "mt-10")}
+              {markdownify(speciality.softwaredevelopment.description, "p", "mt-10")}
             </div>
-          </div> */}
+          </div>
+          <div className="row items-center justify-center">
+            <div className="animate lg:col-6 lg:order-2 mt-24">
+              <ImageFallback
+                className="mx-auto"
+                src={speciality.ecommercewebsitedevelopment.image}
+                width={575}
+                height={511}
+                alt="primary speciality"
+              />
+            </div>
+            <div className="animate lg:col-5 lg:order-1">
+
+              {markdownify(
+                speciality.ecommercewebsitedevelopment.title,
+                "h2",
+                "mt-4 section-title bar-left"
+              )}
+              {markdownify(speciality.ecommercewebsitedevelopment.description, "p", "mt-10")}
+            </div>
+          </div>
+          <div className="row items-center">
+            <div className="animate lg:col-6 mt-24">
+              <ImageFallback
+                className="mx-auto"
+                src={speciality.itconsultingsoftwareconsulting.image}
+                width={575}
+                height={511}
+                alt="secondary speciality"
+              />
+            </div>
+            <div className="animate lg:col-5">
+              {markdownify(
+                speciality.itconsultingsoftwareconsulting.title,
+                "h2",
+                "mt-4 section-title bar-left"
+              )}
+              {markdownify(speciality.itconsultingsoftwareconsulting.description, "p", "mt-10")}
+            </div>
+          </div>
+          <div className="row items-center justify-center">
+            <div className="animate lg:col-6 lg:order-2 mt-24">
+              <ImageFallback
+                className="mx-auto"
+                src={speciality.searchengineoptimization.image}
+                width={575}
+                height={511}
+                alt="primary speciality"
+              />
+            </div>
+            <div className="animate lg:col-5 lg:order-1">
+
+              {markdownify(
+                speciality.searchengineoptimization.title,
+                "h2",
+                "mt-4 section-title bar-left"
+              )}
+              {markdownify(speciality.searchengineoptimization.description, "p", "mt-10")}
+            </div>
+          </div>
+          <div className="row items-center">
+            <div className="animate lg:col-6 mt-24">
+              <ImageFallback
+                className="mx-auto"
+                src={speciality.digitalmarketting.image}
+                width={575}
+                height={511}
+                alt="secondary speciality"
+              />
+            </div>
+            <div className="animate lg:col-5">
+
+              {markdownify(
+                speciality.digitalmarketting.title,
+                "h2",
+                "mt-4 section-title bar-left"
+              )}
+              {markdownify(speciality.digitalmarketting.description, "p", "mt-10")}
+            </div>
+          </div>
+
         </div>
       </section>
 

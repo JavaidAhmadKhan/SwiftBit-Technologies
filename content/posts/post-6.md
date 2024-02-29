@@ -1,6 +1,5 @@
 ---
 title: What is block chain technology?
-
 image: /images/blog/blockchain.jpeg
 author:
   name: Javaid Khan
