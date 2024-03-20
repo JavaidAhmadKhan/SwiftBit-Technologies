@@ -1,4 +1,3 @@
-import config from "@config/config.json";
 import Banner from "./components/Banner";
 import ImageFallback from "./components/ImageFallback";
 import React, { useRef, useState } from "react";

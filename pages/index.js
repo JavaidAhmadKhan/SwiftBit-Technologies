@@ -104,7 +104,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
           <div className="relative">
             <div className="bg-theme banner-bg col-12 absolute left-0 top-0">
               <Circle
-                className="circle left-[10%] top-12"
+                className="circle left-[10%] top-16"
                 width={32}
                 height={32}
                 fill={false}
@@ -159,7 +159,48 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                 height={65}
               />
             </div>
-            <div className="row overflow-hidden rounded-2xl">
+            {/*
+  Heads up! 👋
+
+  This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
+*/}
+
+            <section>
+              <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+                <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+                  <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
+                    <img
+                      alt=""
+                      src="/images/banner4.png"
+                      className="absolute inset-0 h-auto w-full object-cover"
+                    />
+                  </div>
+
+                  <div className="lg:py-24">
+                    <h2 className="text-3xl font-bold sm:text-4xl mb-8 banner-title opacity-0" style={{ transform: "none", rotate: "none", scale: "none", opacity: "1" }}>
+
+                      SwiftBit Technologies  Where Innovation Meets Implementation.</h2>
+
+                    <p className="mt-4 text-gray-600">
+                      At SwiftBit Technologies, we are not just developers, we are architects of innovation, builders of digital dreams. We bring your ideas to life, transforming concepts into scalable and efficient solutions.
+                    </p>
+
+                    {/* <a
+                      href="#"
+                      className="mt-8 inline-block rounded bg-indigo-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-indigo-700 focus:outline-none focus:ring focus:ring-yellow-400"
+                    >
+                      Get Started Today
+                    </a> */}
+                    <div className="banner-btn opacity-0 text-left mt-8">
+                      <Link className="btn btn-primary" href={banner.link.href}>
+                        {banner.link.label}
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            {/* <div className="row overflow-hidden rounded-2xl">
               <div className="col-12">
                 <div className="row relative justify-center pb-10">
                   <div className="banner-content col-10  pb-12 pt-12 text-center lg:pb-36 lg:pt-36">
@@ -186,7 +227,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="row border-y border-border py-5">
               <div className="animate from-right col-12">
                 <Swiper
@@ -226,7 +267,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
       </section>
 
       {/* Features */}
-      <section className="section">
+      <section className="section ">
         <div className="container text-center">
           <div className="animate">
             <p className="uppercase">{features.sub_title}</p>
@@ -234,7 +275,7 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
             {markdownify(
               features.description,
               "p",
-              "mt-10 text-lg font-medium px-0 md:px-8 lg:px-12"
+              "mt-10 text-lg font-medium px-0 md:px-8 lg:px-12 text-left"
             )}
           </div>
           {/* <div className="animate from-right relative mt-10">
