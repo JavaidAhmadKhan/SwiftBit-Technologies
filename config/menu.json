@@ -7,22 +7,8 @@
 
     {
       "name": "Services",
-      "url": "",
-      "hasChildren": true,
-      "children": [
-        {
-          "name": "Web Development",
-          "url": "/web-development"
-        },
-        {
-          "name": "Mobile Application Development",
-          "url": "/app-development"
-        },
-        {
-          "name": "Ecommerce Development",
-          "url": "/ecommerce-development"
-        }
-      ]
+      "url": "/"
+      
     },
     {
       "name": "Portfolio",
@@ -35,6 +21,10 @@
     {
       "name": "About",
       "url": "/about"
+    },
+    {
+      "name": "Contact Us",
+      "url": "/contact"
     }
   ],
   "footer": [
@@ -49,6 +39,10 @@
     {
       "name": "Terms & Conditions",
       "url": "/terms-policy"
+    },
+    {
+      "name": "Contact Us",
+      "url": "/contact"
     }
   ]
 }
