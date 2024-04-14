@@ -1,11 +1,10 @@
 import Image from "next/image";
-import Link from "next/link";
 import React from "react";
 
 const ProjectCard = () => {
   return (
     <div>
-      <h2 className="text-center">Project we have done</h2>
+      <h2 className="text-center">Projects we have done</h2>
       <div className="grid grid-cols-1  md:grid-cols-2  lg:grid-cols-3 rounded-sm shadow-sm">
         <div className="m-2 border p-2">
           <Image

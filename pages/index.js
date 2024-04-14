@@ -1,17 +1,19 @@
-import About from "@layouts/About";
+
 import Base from "@layouts/Baseof";
 import Circle from "@layouts/components/Circle";
 import Cta from "@layouts/components/Cta";
 import ImageFallback from "@layouts/components/ImageFallback";
-import VideoPopup from "@layouts/components/VideoPopup";
+
 import { getListPage } from "@lib/contentParser";
 import { gsap } from "@lib/gsap";
 import { markdownify } from "@lib/utils/textConverter";
-import FeatherIcon from "feather-icons-react/build/FeatherIcon";
+
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef } from "react";
-import { TbQuote } from "react-icons/tb";
-import { Autoplay, Pagination } from 'swiper/modules';
+import { IoLogoWhatsapp } from "react-icons/io5";
+
+import { Autoplay, } from 'swiper/modules';
 import { Swiper, SwiperSlide } from "swiper/react";
 
 const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
@@ -169,8 +171,9 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
               <div className="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
                   <div className="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
-                    <img
-                      alt=""
+                    <Image
+                      alt="banner"
+                      width={200} height={200}
                       src="/images/banner4.png"
                       className="absolute inset-0 h-auto w-full object-cover"
                     />
@@ -649,6 +652,11 @@ const Home = ({ banner, brands, features, intro, speciality, testimonial }) => {
       </section> */}
 
       {/* Cta */}
+      <div className="fixed top-[350px] right-0 ">
+        <a href="https://wa.me/6006897179?text=We develop%20websites%20Mobile Apps%20Seo%20Digital Marketting%20POD" target="_blank">
+          <IoLogoWhatsapp width={50} height={50} className="h-14 w-14 text-[#41e25e]" />
+        </a>
+      </div>
       <Cta />
     </Base>
   );

@@ -53,6 +53,7 @@ const App = ({ Component, pageProps }) => {
         <GoogleAnalytics gaId="GTM-KHP39HF" />
       </Head>
       <Component {...pageProps} />
+      
     </>
   );
 };
